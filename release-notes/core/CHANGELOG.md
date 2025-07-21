@@ -1,3 +1,7 @@
+## 1.3.2 (2025-07-21)
+* Trimble.ID
+	- Default leeway time has been added to renew the token 5 mins before expiration  to prevent disruptions and address edge cases where a token might expire during a critical operation. This is addressed for Client Credential Grant type provider
+
 ## 1.3.1 (2025-06-17)
 * Trimble.ID
 	- Removed unsigned assembly jose-jwt in favor of Microsoft.IdentityModel.JsonWebTokens for token validation.
